@@ -98,6 +98,15 @@
     .navbar__link--active::before {
         display: none;
     }
+
+    .hero .container {
+        flex-direction: column-reverse;
+        row-gap: 50px;
+    }
+
+    .hero__content {
+        width: auto;
+    }
 }
 
 /* Tablet */
@@ -113,11 +122,32 @@
         display: none;
     }
 
+    .btn {
+        min-width: 150px;
+    }
+
     .logo {
         font-size: 1rem;
     }
 
     .header-action {
         display: none;
+    }
+
+    .hero__images img:nth-child(2) {
+        display: none;
+        object-fit: cover;
+    }
+
+    .hero__img {
+        height: 300px;
+    }
+
+    .hero__heading {
+        font-size: 2rem;
+    }
+
+    .hero__phone {
+        font-size: 1.5rem;
     }
 }

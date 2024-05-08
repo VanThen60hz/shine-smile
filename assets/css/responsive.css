@@ -191,6 +191,10 @@
     .news__heading {
         max-width: 100%;
     }
+
+    .appointment__desc {
+        font-size: 2rem;
+    }
 }
 
 /* Tablet */
@@ -303,5 +307,9 @@
 
     .news__inner {
         padding: 0;
+    }
+
+    .appointment__inner {
+        padding: 50px 30px;
     }
 }

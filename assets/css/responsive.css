@@ -179,6 +179,18 @@
         border-radius: 20px;
         padding: 50px;
     }
+
+    .news__inner {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        gap: 30px;
+
+        padding-left: 30px;
+    }
+
+    .news__heading {
+        max-width: 100%;
+    }
 }
 
 /* Tablet */
@@ -282,5 +294,14 @@
 
     .install__desc {
         font-size: 1.5rem;
+    }
+
+    .news__list {
+        flex-direction: column;
+        row-gap: 50px;
+    }
+
+    .news__inner {
+        padding: 0;
     }
 }

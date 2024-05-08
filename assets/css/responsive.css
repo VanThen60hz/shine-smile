@@ -195,6 +195,15 @@
     .appointment__desc {
         font-size: 2rem;
     }
+
+    .footer__row {
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+    }
+
+    .footer__copyright {
+        margin-top: 30px;
+    }
 }
 
 /* Tablet */
@@ -309,7 +318,19 @@
         padding: 0;
     }
 
+    .appointment {
+        margin-bottom: 85px;
+    }
+
     .appointment__inner {
         padding: 50px 30px;
+    }
+
+    .footer {
+        padding-top: 50px;
+    }
+
+    .footer__row {
+        grid-template-columns: 1fr;
     }
 }

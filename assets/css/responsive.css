@@ -106,6 +106,27 @@
 
     .hero__content {
         width: auto;
+        padding: 0 30px;
+    }
+
+    .service__row {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .service-item {
+        width: auto;
+    }
+
+    .all-service-btn {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 240px;
+    }
+
+    .service {
+        padding: 100px 0;
     }
 }
 
@@ -130,6 +151,10 @@
         font-size: 1rem;
     }
 
+    .section-heading {
+        font-size: 3rem;
+    }
+
     .header-action {
         display: none;
     }
@@ -147,7 +172,20 @@
         font-size: 2rem;
     }
 
+    .hero__content {
+        padding: 0;
+    }
+
     .hero__phone {
         font-size: 1.5rem;
+    }
+
+    .service__img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .service__desc {
+        width: auto;
     }
 }

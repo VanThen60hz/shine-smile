@@ -355,7 +355,7 @@ button {
     padding: 22px;
     border-radius: 10px;
     background: #fff;
-    transition: 0.25s;
+    transition: 0.5s ease;
 }
 
 .service-item:hover {

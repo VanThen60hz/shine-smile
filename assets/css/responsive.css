@@ -128,6 +128,11 @@
     .service {
         padding: 100px 0;
     }
+
+    .work__list {
+        grid-template-columns: repeat(2, auto);
+        row-gap: 30px;
+    }
 }
 
 /* Tablet */
@@ -186,6 +191,14 @@
     }
 
     .service__desc {
+        width: auto;
+    }
+
+    .work__list {
+        grid-template-columns: auto;
+    }
+
+    .work__desc {
         width: auto;
     }
 }
